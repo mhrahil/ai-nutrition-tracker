@@ -1,0 +1,28 @@
+{
+  "name": "ai-nutrition-tracker",
+  "version": "1.0.0",
+  "description": "An AI-native replacement for MyFitnessPal. Point your camera at food — Claude Vision identifies it and calculates the macros automatically. Set a target weight and track your daily protein, carbs, and fat intake.",
+  "main": "index.js",
+  "scripts": {
+    "supabase": "supabase",
+    "db:push": "supabase db push",
+    "functions:deploy": "supabase functions deploy",
+    "functions:serve": "supabase functions serve",
+    "secrets:set": "supabase secrets set"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhrahil/ai-nutrition-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mhrahil/ai-nutrition-tracker/issues"
+  },
+  "homepage": "https://github.com/mhrahil/ai-nutrition-tracker#readme",
+  "devDependencies": {
+    "supabase": "^2.101.0"
+  }
+}
