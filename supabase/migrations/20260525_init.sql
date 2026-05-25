@@ -3,7 +3,7 @@
 -- user_profiles (set during onboarding)
 create table user_profiles (
   id uuid primary key default gen_random_uuid(),
-  user_id uuid references auth.users unique on delete cascade,
+  user_id uuid unique references auth.users on delete cascade,
   name text,
   current_weight_kg decimal,
   target_weight_kg decimal,
